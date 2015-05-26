@@ -1,0 +1,1 @@
+git archive --format zip --output ../web/asp-v1.0.zip --prefix=asp/ master

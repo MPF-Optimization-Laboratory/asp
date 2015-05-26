@@ -1,0 +1,21 @@
+README for asp:
+   active-set procedures for Basis Pursuit and related problems
+
+Michael Friedlander <mpf@cs.ubc.ca>
+Michael Saunders <saunders@stanford.edu>
+
+%-----------------------------------------------------------------------
+
+Install and test BPdual:
+========================
+
+ cd <asp directory>   % Put yourself in the asp directory
+ addpath(pwd)
+ as_setup             % compiles two mex interfaces in ./private
+                      % for the heap routines used by private/l2maxline.
+
+ cd tests
+ demo_bpdn            % runs BPdual on a 600 x 2560 test problem
+                      % with several values of lambda.
+
+

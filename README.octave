@@ -1,0 +1,21 @@
+Using ASP with Octave
+---------------------
+
+The ASP package is compatible with Octave 3.0.1.  It's first necessary
+to add the directories
+
+  private
+  Octave
+
+to the Octave path.  The first is needed because Octave doesn't
+automatically add 'private' to its path the way that Matlab does; the
+directory 'Octave' adds a few routines that are missing in Matlab.
+
+It should be enough to execute the following commands from the Octave
+prompt:
+
+  addpath <ASP_path>/private
+  addpath <ASP_path>/Octave
+
+
+$Id$
