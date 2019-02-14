@@ -10,7 +10,7 @@ function inform = demo_seqcs
 % $Id: demo_seqcs.m 519 2010-04-21 16:36:30Z mpf $
 
 % "New" way of resetting randn and rand
-reset(RandStream.getDefaultStream);
+rng('default');
    
 % Problem dims
 n  = 1024;
